@@ -24,7 +24,7 @@ export default function Home() {
         ]}
       >
         <Text style={styles.titleBounce}>
-          Bem Vindo ao app <b>AT2</b>
+          Bem Vindo ao app AT2
         </Text>
       </Animated.View>
       <Text style={styles.title}>Home Screen</Text>
@@ -50,8 +50,9 @@ const styles = StyleSheet.create({
     marginTop: 32,
   },
   ballBounce: {
-    height: 50,
-    paddingHorizontal: 24,      
+    height: "auto",
+    paddingHorizontal: 24,
+    paddingVertical: 12,
     borderRadius: 10,
     backgroundColor: "#fff",    
 
@@ -65,5 +66,6 @@ const styles = StyleSheet.create({
     color: "#272727ff",
     fontWeight: "600",
     fontSize: 24,
+    textAlign: "center",
   }
 });
