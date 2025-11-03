@@ -50,7 +50,7 @@ export default function Perfil() {
       <View style={styles.profileInfo}>
         <View style={styles.infoItem}>
           <Text style={styles.infoLabel}>Nome:</Text>
-          <Text style={styles.infoValue}>{profile.nome}</Text>
+          <Text style={styles.infoValue}>{profile.nome ? profile.nome : 'Não definido'}</Text>
         </View>
 
         <View style={styles.infoItem}>
